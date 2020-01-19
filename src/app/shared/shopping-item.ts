@@ -1,4 +1,4 @@
-import { Product } from 'src/app/shared/product';
+import { Product } from '../shared/product';
 
 export interface ShoppingItem {
   id: string;

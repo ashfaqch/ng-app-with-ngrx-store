@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { OrderService } from 'src/app/shared/order.service';
+import { OrderService } from '../shared/order.service';
 import { Observable } from 'rxjs';
-import { Order } from 'src/app/shared/order';
+import { Order } from '../shared/order';
 
 @Component({
   selector: 'app-order-list',

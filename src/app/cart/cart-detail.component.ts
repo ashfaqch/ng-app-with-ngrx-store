@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 
-import { ShoppingItem } from 'src/app/shared/shopping-item';
-import { AppState } from 'src/app/store/app-state';
-import { DeleteItemAction, DeleteAllItemAction, UpdateItemAction } from 'src/app/store/shopping.actions';
-import { OrderService } from 'src/app/shared/order.service';
-import { Order } from 'src/app/shared/order';
+import { ShoppingItem } from '../shared/shopping-item';
+import { AppState } from '../store/app-state';
+import { DeleteItemAction, DeleteAllItemAction, UpdateItemAction } from '../store/shopping.actions';
+import { OrderService } from '../shared/order.service';
+import { Order } from '../shared/order';
 
 @Component({
     selector: 'app-cart-detail',

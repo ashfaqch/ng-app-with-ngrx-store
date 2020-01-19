@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 
-import { ShoppingItem } from 'src/app/shared/shopping-item';
-import { AppState } from 'src/app/store/app-state';
-import { DeleteItemAction, UpdateItemAction } from 'src/app/store/shopping.actions';
+import { ShoppingItem } from '../shared/shopping-item';
+import { AppState } from '../store/app-state';
+import { DeleteItemAction, UpdateItemAction } from '../store/shopping.actions';
 
 @Component({
     selector: 'app-cart-items',

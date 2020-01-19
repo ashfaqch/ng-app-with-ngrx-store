@@ -15,7 +15,7 @@ import { OrderListComponent } from './order/order-list.component';
 import { OrderDetailComponent } from './order/order-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ShoppingReducer } from './store/shopping.reducer';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 import { Database } from './shared/database';
 
 @NgModule({
