@@ -1,3 +1,22 @@
-<div class='container-fluid'>
-    <router-outlet></router-outlet>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #b3e0ff;">
+  <div id="navb" class="navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/">Products</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/orders">Orders</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+      <li>
+        <button class="btn btn-success" type="submit" routerLink="/cart-detail">
+          <i class="fa fa-shopping-cart"><b> {{ (shoppingItems$ | async).length }}</b></i>
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class='container-fluid' style="margin-top: 10px;">
+  <router-outlet></router-outlet>
 </div>
