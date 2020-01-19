@@ -15,3 +15,4 @@ In this example I have demonstrated the use of @ngrx/store state management.
     - npm install @ngrx/store @ngrx/store-devtools --save
     - npm install jquery --save
     - npm install popper.js --save
+    - npm install uuid --save
