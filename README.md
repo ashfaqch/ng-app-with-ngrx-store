@@ -13,3 +13,5 @@ In this example I have demonstrated the use of @ngrx/store state management.
     - npm install font-awesome@4 --save
     - npm install angular-in-memory-web-api --save
     - npm install @ngrx/store @ngrx/store-devtools --save
+    - npm install jquery --save
+    - npm install popper.js --save
