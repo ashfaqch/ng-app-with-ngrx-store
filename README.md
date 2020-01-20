@@ -1,6 +1,9 @@
 # Angular Shopping Cart application with @ngrx/store
 In this example I have demonstrated the use of @ngrx/store state management.
 
+[![dependency Status](https://david-dm.org/ashfaqch/ng-app-with-ngrx-store.svg)](https://david-dm.org/ashfaqch/ng-app-with-ngrx-store#info=dependencies)
+[![devDependency Status](https://david-dm.org/ashfaqch/ng-app-with-ngrx-store/dev-status.svg)](https://david-dm.org/ashfaqch/ng-app-with-ngrx-store#info=devDependencies)
+
 [Demo](https://stackblitz.com/github/ashfaqch/ng-app-with-ngrx-store)
 
 ## Build & Run
